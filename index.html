@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui and tailwind Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white">
+    <!-- header start -->
+    <header class="bg-white">
+        <div class="navbar bg-amber-50 shadow-sm flex justify-around pt-4 pb-8">
+            <!-- button -->
+            <div class="">
+                <a href="#" class="px-7 py-2 bg-lime-400 rounded-lg text-black text-lg font-semibold">Blog</a>
+            </div>
+            <!-- logo -->
+             <div class="flex items-center gap-2">
+                <img src="./img/logo.png" alt="">
+                <h3 class="text-black text-lg font-medium">Donate Bangladesh</h3>
+             </div>
+             <!-- balance -->
+              <div class="flex items-center gap-2">
+                <img src="./img/coin.png" alt="">
+                <h3 class="text-gray-500 text-lg font-medium">$ <span id="balance">5500</span></h3>
+              </div>
+        </div>
+    </header>
+     <!-- header end -->
+      <main class="lg:mx-24 mx-5">
+          <!-- dante and history tab section start -->
+       <section class="mt-20 mb-8 flex items-center gap-5 justify-center">
+        <a href="#" class="px-6 py-3 bg-lime-400 rounded-sm text-black text-lg font-semibold">Donation</a>
+        <a style="height: 52px; width: 120px;" class="btn btn-outline">History</a>
+       </section>
+      <!-- dante and history tab section end -->
+      </main>
+    <!-- js install -->
+    <script src="./script.js"></script>
+</body>
+</html>
